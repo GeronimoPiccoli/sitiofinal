@@ -1,0 +1,541 @@
+/**font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Serif Sinhala', serif;}
+font-family: 'Montserrat', sans-serif;
+**/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/COMERCIO-EXTERIORbienblureada.jpg);
+    background-size: 100vw 90vh;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-attachment: fixed;
+
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEFEF8;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 105px;
+}
+
+.primerh1 {
+    color: black;
+    font-size: 30px;
+    margin-top: 35px;
+    font-weight: 400;
+    text-decoration: underline black 2px;
+
+}
+
+.headimg {
+    margin-right: 30px;
+    height: 110px;
+}
+
+.headimg2 {
+    margin-top: 30px;
+    height: 50px;
+    width: 430px;
+}
+
+.tamanio {
+    justify-content: center;
+    display: flex;
+    margin-bottom: auto;
+    height: 670px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor1 {
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    height: 450px;
+    margin-top: 120px;
+    background-color: rgba(54, 49, 49, 0.616);
+    border-radius: 10px;
+}
+
+.mensajeria {
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .9;
+}
+
+.controles {
+    width: 400px;
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(12, 12, 12);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .9;
+}
+
+.controlesmensaje {
+    min-width: 400px;
+    min-height: 20px;
+    max-width: 400px;
+    max-height: 20px;
+    background-color: white;
+    padding: 7px;
+    padding-bottom: 100px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: .9;
+}
+
+.mensajeria .boton {
+
+    width: 200px;
+    background: #EF1923;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    margin-left: 120px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor0 {
+    margin-top: 110px;
+    color: #ffffff;
+    font-size: 36px;
+    margin-left: 50px;
+    width: 50%;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+}
+
+ul {
+    font-size: 40px;
+    line-height: 2.5;
+    margin: auto;
+}
+
+.ppp {
+    color: white;
+    text-align: center;
+}
+
+
+/**segunda parte**/
+
+.contenedor2 {
+    width: 100%;
+    height: 310px;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor2 i {
+    color: #ED424A;
+    font-size: 70px;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+
+}
+
+.primercuadro {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    height: 300px;
+    display: block;
+
+}
+
+/**h2**/
+.iconos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+
+}
+
+p {
+    margin-left: 50px;
+    margin-top: -5px;
+    text-align: left;
+}
+
+/**3ra**/
+.tamanio2 {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    background-color: #aa161d;
+    margin-top: auto;
+    width: auto;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 55px;
+    font-size: 50px;
+    margin: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h5 a {
+    text-decoration: none;
+    color: white;
+}
+
+h5 a:hover {
+    font-size: 52px;
+}
+
+
+
+/**contenedor 3  img / descripciones !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**/
+
+.contenedor3 {
+    display: block;
+    height: 999px;
+    width: 100%;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.imgydescripcion {
+    padding-top: 20px;
+    height: 331px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.img1 {
+    width: 550px;
+
+}
+
+.p1 {
+    width: 550px;
+}
+
+.img2 {
+    width: 550px;
+}
+
+.p2 {
+    width: 550px;
+}
+
+.img3 {
+    width: 550px;
+}
+
+.p3 {
+    width: 550px;
+}
+
+.imagenes4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: -5px 8px 54px 0px rgba(73, 72, 72, 0.75);
+    -webkit-box-shadow: -5px 8px 54px 0px rgba(56, 55, 55, 0.75);
+    -moz-box-shadow: -5px 8px 54px 0px rgba(49, 48, 48, 0.75);
+
+}
+
+.textoc3 {
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+
+.ases {
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 100px;
+    opacity: 0.7;
+}
+
+.aere {
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 100px;
+    opacity: 0.7;
+
+}
+
+.mari {
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 100px;
+    opacity: 0.7;
+}
+
+/**                          MEDIA QUERIES                   **/
+@media screen and (min-width: 230px) and (max-width: 800px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(../images/COMERCIO-EXTERIORbienblureada.jpg);
+        background-size: 200vw 140vh;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-attachment: fixed;
+        background-position-x: -300px;
+    }
+
+    header {
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        background-color: #FEFEF8;
+    }
+
+    .headimg {
+        justify-content: center;
+        height: 110px;
+    }
+
+    .headimg2 {
+        margin-top: 0px;
+        height: 0px;
+        width: 0px;
+    }
+
+    .tamanio {
+        display: table-row;
+        margin-bottom: auto;
+        height: 670px;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    }
+
+
+    .contenedor0 {
+        margin-top: 100px;
+        color: #ffffff;
+        font-size: 40px;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+
+    }
+
+    .contenedor0 h2 {
+        justify-content: center;
+    }
+
+
+    ul {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .contenedor1 {
+
+        width: 95%;
+        height: 450px;
+        margin-top: 80px;
+        background-color: rgba(54, 49, 49, 0.0);
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .mensajeria {
+        margin-left: 0px;
+        margin-top: 70px;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        opacity: .9;
+    }
+
+    .controles {
+        width: 100%;
+    }
+
+    .controlesmensaje {
+        min-width: 100%;
+
+        max-width: 100%;
+
+
+    }
+
+    .mensajeria .boton {
+        width: 100%;
+        border-radius: 20px;
+        padding: 12px;
+        margin: 16px 0;
+    }
+
+
+
+    .contenedor2 {
+        width: 100%;
+        height: auto;
+        background-color: #E7E7E7;
+        display: flow-root;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .primercuadro {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .iconos {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor2 i {
+        margin-top: 0px;
+        display: flex;
+        margin-left: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+
+    }
+
+    .imgydescripcion {
+        padding-top: 20px;
+        height: 331px;
+        margin: auto;
+        display: table-row;
+        width: 100%;
+
+    }
+
+    .contenedor3 {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        padding-top: 70px;
+        padding-bottom: 90px;
+        display: table-row;
+    }
+
+
+
+    .img1 {
+
+        width: 0%;
+
+    }
+
+    .p1 {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .img2 {
+        width: 0%;
+    }
+
+    .p2 {
+        width: 100%;
+    }
+
+    .img3 {
+        width: 0%;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .imagenes4 {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .textoc3 {
+        width: 90%;
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+
+
+    .ases {
+        width: 60%;
+        margin-top: 50px;
+        opacity: 0.7;
+    }
+
+    .aere {
+        width: 60%;
+        margin-top: 50px;
+        opacity: 0.7;
+
+    }
+
+    .mari {
+        width: 60%;
+        margin-top: 50px;
+        opacity: 0.7;
+    }
+
+    .tamanio2 {
+        height: 120px;
+
+    }
+
+    h5 {
+        padding-top: 55px;
+        font-size: 20px;
+    }
+}
